@@ -1,0 +1,20 @@
+{
+  "url": "https://github.com/owner/project/issues",
+  "email": "chunpeng@hotmail.fr",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "bluebird": "3.5.1",
+    "express": "^4.16.2",
+    "lodash": "4.17.4",
+    "moment": "^2.19.1",
+    "node-inspect": "^1.11.3",
+    "nodemon": "^1.15.1"
+  },
+  "scripts": {
+    "babel": "./node_modules/.bin/babel-node fnTst.js -o fnTstB.js",
+    "start": "node app.js",
+    "test": "NODE_ENV=test npm run babel -- ./node_modules/karma/bin/karma start",
+    "bNode": "babel fnTst.js -o fnTst-compiled.js"
+  }
+}
