@@ -13,8 +13,8 @@ http.createServer(function(req, res){
     }else if(reqStr === '/api'){
         res.writeHead(200, {'Content-Type':'application/json'});
         var myObj = {
-            fn: 'Hi it is my first name change1',
-            ln: 'hey this is my last name'
+            fn: 'Hi it is my first name change2',
+            ln: 'hey this is my last name change2 change3'
         }
         let jsonStr = JSON.stringify(myObj);
         res.end(jsonStr);
