@@ -6,7 +6,7 @@
     "babel-cli": "^6.26.0",
     "bluebird": "3.5.1",
     "express": "^4.16.2",
-    "lodash": "4.17.4",
+    "lodash": "4.17.19",
     "moment": "^2.19.1",
     "node-inspect": "^1.11.3",
     "nodemon": "^1.15.1"
